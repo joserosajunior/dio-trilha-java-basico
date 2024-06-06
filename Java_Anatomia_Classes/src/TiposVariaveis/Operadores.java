@@ -3,30 +3,19 @@ package TiposVariaveis;
 public class Operadores {
 	
 	public static void main(String[] args) {
-		String concatenacao ="?"; 
-
-		concatenacao = 1+1+1+"1";
+		boolean condicao1=true;
 		
-		System.out.println(concatenacao);
-
-		concatenacao = 1+"1"+1+1;
+		boolean condicao2=true;	
 		
-		System.out.println(concatenacao);
-
-		concatenacao = 1+"1"+1+"1";
+		if(condicao1 && (7 > 4)){
+			System.out.println("as duas condições são verdadeiras");
+		}
 		
-		System.out.println(concatenacao);
-
-		concatenacao = "1"+1+1+1;
+		if(condicao1 || condicao2){
+			System.out.println("Uma das condições é verdadeira");
+		}
 		
-		System.out.println(concatenacao);
-
-		concatenacao = "1"+(1+1+1);
-		
-		System.out.println(concatenacao);
-		
-		
-		
+		System.out.println("fim");
 	}
 	
 	

@@ -27,7 +27,7 @@ public class ContaTerminal {
 		System.out.println("Ola, " + nome + " " );
 		System.out.println("Sua conta é " + numero + " ");
 		System.out.println("Sua Agencia é " + agencia + " ");
-		System.out.println("Seu saldo é de  1000.00 e  já está disponivel para saque" );
+		System.out.println("Seu saldo é de  1000.000 e  já está disponivel para saque" );
 		
 		
 		
